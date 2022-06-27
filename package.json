@@ -3,14 +3,10 @@
     "name": "portfolio",
     "version": "6.0.5",
     "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
-        "build:assets": "node scripts/build-assets.js",
-        "build:pug": "node scripts/build-pug.js",
-        "build:scripts": "node scripts/build-scripts.js",
-        "build:scss": "node scripts/build-scss.js",
-        "clean": "node scripts/clean.js",
-        "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+    	"serve": "vue-cli-service serve",
+    	"build": "vue-cli-service build",
+    	"lint": "vue-cli-service lint",
+    	"deploy": "sh deploy.sh"
     },
     "description": "A stylish portfolio HTML template built with Bootstrap",
     "keywords": [
