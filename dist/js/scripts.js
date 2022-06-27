@@ -1,7 +1,7 @@
 /*!
 * Start Bootstrap - Stylish Portfolio v6.0.5 (https://wdhub.github.io/portfolio)
 * Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/portfolio/blob/master/LICENSE)
 */
 window.addEventListener('DOMContentLoaded', event => {
 
